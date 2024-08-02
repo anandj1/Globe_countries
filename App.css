@@ -56,11 +56,11 @@ a {
 .countries-container {
     max-width: 1200px;
     margin-top: 16px;
-    display: flex;
+    display: grid;
     gap: 64px;
-    flex-wrap: wrap;
+   grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
     margin-inline: auto;
-    justify-content: space-between;
+
 }
 
 .country-card {
